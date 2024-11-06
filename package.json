@@ -1,0 +1,20 @@
+{
+    "name": "driving-license-ocr",
+    "version": "1.0.0",
+    "description": "A web application to extract details from Indian driving licenses using Tesseract.js",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "keywords": [
+      "OCR",
+      "Tesseract",
+      "Express",
+      "Driving License"
+    ],
+    "author": "Priyanka",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
