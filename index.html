@@ -6,18 +6,19 @@
     <title>Driving License OCR</title>
     <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.1/dist/tesseract.min.js"></script>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Upload Driving License</h1>
+    <h1>Driving License Information Reader</h1><br>
+    <h2>Upload Driving License</h2><br>
     <input type="file" id="fileInput" accept="image/*" />
-    <button id="uploadButton">Extract Details</button>
-
-    <h2>Extracted Details</h2>
-    <pre id="rawText">Raw Text: </pre>
-    <pre id="cleanedText">Cleaned Text: </pre>
-    <p><strong>Name:</strong> <span id="name"></span></p>
-    <p><strong>Driving License ID:</strong> <span id="licenseId"></span></p>
-    <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
-    <p><strong>Expiry Date:</strong> <span id="expiryDate"></span></p>
+    <button id="uploadButton">Extract Details</button><br><br>
+    <h3>Extracted Details</h3><br>
+    <pre id="rawText">Raw Text: </pre><br>
+    <pre id="cleanedText">Cleaned Text: </pre><br>
+    <p><strong>Name:</strong> <span id="name"></span></p><br>
+    <p><strong>Driving License ID:</strong> <span id="licenseId"></span></p><br>
+    <p><strong>Date of Birth:</strong> <span id="dob"></span></p><br>
+    <p><strong>Expiry Date:</strong> <span id="expiryDate"></span></p><br>
 </body>
 </html>

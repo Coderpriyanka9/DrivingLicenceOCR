@@ -1,0 +1,49 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+body{
+    background-image: url("./images/beautiful-light-blue-pastel-background-minimal-scene-blue-empty-room-stand-show-cosmetic-product-stage-showcase-pastel-color-sky-blue-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+    color: brown;
+}
+#fileInput{
+    margin-left: 30%;
+}
+h2{
+    margin-left: 30%;
+    color: brown;
+}
+h3{
+    /* text-align: center; */
+    margin-left: 30%;
+    color: brown;
+}
+p{
+    margin-left: 30%;
+    color: red;
+}
+#rawText{
+    margin-left: 30%;
+    font-weight: 700;
+    color: red;
+}
+#cleanedText{
+    margin-left: 30%;
+    font-weight: 700;
+    color: red;
+}
+#uploadButton{
+    background-color: blue;
+    border: none;
+    border-radius: 10%;
+    padding: 7px 5px;
+    color: white;
+}
