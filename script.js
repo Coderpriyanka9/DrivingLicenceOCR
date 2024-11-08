@@ -77,8 +77,7 @@ async function preprocessImage(file) {
 }
 
 function displayResults(rawText, cleanedText) {
-    // document.getElementById('rawText').textContent = `Raw Text: ${rawText}`;
-    // document.getElementById('cleanedText').textContent = Cleaned `Text: ${cleanedText}`; 
+   
     document.getElementById('rawText').innerHTML = `<strong>Raw Text:</strong>${rawText}`;
     document.getElementById('cleanedText').innerHTML = `<strong>Cleaned Text:</strong> ${cleanedText}`;
     document.getElementById('name').textContent = extractName(cleanedText) || "Not found";
