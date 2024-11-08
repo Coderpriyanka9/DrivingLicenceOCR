@@ -15,29 +15,31 @@ h1{
     color: brown;
 }
 #fileInput{
-    margin-left: 30%;
+    margin-left: 32%;
 }
 h2{
-    margin-left: 30%;
+    margin-left: 32%;
     color: brown;
 }
 h3{
     /* text-align: center; */
-    margin-left: 30%;
+    margin-left: 32%;
     color: brown;
 }
 p{
-    margin-left: 30%;
+    margin-left: 32%;
     color: red;
 }
 #rawText{
-    margin-left: 30%;
-    font-weight: 700;
+    margin-left: 32%;
+    /* font-weight: 700; */
+    font-weight: normal;
     color: red;
 }
 #cleanedText{
-    margin-left: 30%;
-    font-weight: 700;
+    margin-left: 32%;
+    /* font-weight: 700; */
+    font-weight: normal;
     color: red;
 }
 #uploadButton{
