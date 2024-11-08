@@ -28,17 +28,18 @@ h3{
 }
 p{
     margin-left: 32%;
+    font-weight: 700;
     color: red;
 }
 #rawText{
     margin-left: 32%;
-    /* font-weight: 700; */
     font-weight: normal;
     color: red;
 }
 #cleanedText{
     margin-left: 32%;
-    /* font-weight: 700; */
+    word-wrap: break-word;
+    white-space: normal;
     font-weight: normal;
     color: red;
 }
